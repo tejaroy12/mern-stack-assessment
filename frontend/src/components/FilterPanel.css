@@ -1,0 +1,33 @@
+.filter-panel {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.filter-header {
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-body {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.filter-body label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.filter-body select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
